@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+\setlength{\oddsidemargin}{27mm}
+\setlength{\evensidemargin}{27mm}
+\setlength{\hoffset}{-1in}
+
+\setlength{\topmargin}{20mm}
+\setlength{\voffset}{-1in}
+\setlength{\headheight}{42pt}
+\setlength{\headsep}{15pt}
+
+
+\setlength{\textheight}{215mm}
+\setlength{\textwidth}{155mm}
+
+
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand{\labelitemi}{$\diamond$}
+
+
+\usepackage{fancyhdr}
+\usepackage[table]{xcolor}
+\usepackage{setspace}
+\usepackage{graphicx}
+
+% Style books for tables
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{multirow} % col/row span in tables
+\usepackage{array}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\usepackage{setspace}
+\usepackage[flushleft]{threeparttable}
+
+\newcommand\Fig[1]{\textbf{Fig.}~\ref{#1}}
+\newcommand\fig[1]{\textbf{Fig.}~\ref{#1}}
+\newcommand\Tab[1]{\textbf{Tab.}~\ref{#1}}
+\newcommand\Equ[1]{\textbf{Eq.}~(\ref{#1})}
+\newcommand\equ[1]{\textbf{Eq.}~(\ref{#1})}
+\newcommand\Sect[1]{\textbf{Sec.}~\ref{#1}}
+\newcommand\sect[1]{\textbf{Sec.}~\ref{#1}}
+\newcommand\Refs[1]{\textbf{Ref.}~\cite{#1}}
+\newcommand\refs[1]{\textbf{Ref.}~\cite{#1}}
+
+
+\newcommand\todo[1]{\textbf{(TODO: {#1}})\\}
+
+% To highlight "review"
+\newcommand\REVIEW[1]{\hl{#1}}
+%To remove highlight
+%\newcommand\REVIEW[1]{{#1}}
+
+
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+\definecolor{signaturegray}{gray}{0.98}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{\tab[5in]\includegraphics[scale=0.15]{logo_ub_2021.png}}
+\rfoot{Page \thepage}
+\lfoot{Ph.D. proposal}
+
+
+\begin{document}
+
+\input{../content/cover.tex}
+\input{../content/general_information.tex}
+\input{../content/introduction.tex}
+\input{../content/state_of_the_art.tex}
+\input{../content/research_goals.tex}
+\input{../content/project_plan.tex}
+
+\bibliographystyle{IEEEtran}
+\bibliography{../content/bibliography.bib}
+
+\end{document}
