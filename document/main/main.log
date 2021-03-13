@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.8.18)  11 MAR 2021 05:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.8.18)  13 MAR 2021 04:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -125,34 +125,52 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box28
 )
-(./main.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip57
+\LTright=\skip58
+\LTpre=\skip59
+\LTpost=\skip60
+\LTchunksize=\count91
+\LTcapwidth=\dimen113
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count92
+\LT@rows=\count93
+\c@LT@tables=\count94
+\c@LT@chunks=\count95
+\LT@p@ftn=\toks20
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen113
-\scratchbox=\box29
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen114
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count96
+\scratchdimen=\dimen114
+\scratchbox=\box33
+\nofMPsegments=\count97
+\nofMParguments=\count98
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen115
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
+\everyMPtoPDFconversion=\toks22
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -213,7 +231,7 @@ e
 <logo_ub_2021.png, id=1, 419.5675pt x 150.5625pt>
 File: logo_ub_2021.png Graphic file (type png)
 <use logo_ub_2021.png>
-Package pdftex.def Info: logo_ub_2021.png  used on input line 72.
+Package pdftex.def Info: logo_ub_2021.png  used on input line 70.
 (pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
  [1
 
@@ -231,22 +249,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--25
 )
 File: logo_ub_2021.png Graphic file (type png)
 <use logo_ub_2021.png>
-Package pdftex.def Info: logo_ub_2021.png  used on input line 73.
+Package pdftex.def Info: logo_ub_2021.png  used on input line 71.
 (pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
- [2] (../content/introduction.tex
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
+ [2] (../content/abstract.tex) (../content/introduction.tex
 File: logo_ub_2021.png Graphic file (type png)
 <use logo_ub_2021.png>
-Package pdftex.def Info: logo_ub_2021.png  used on input line 17.
+Package pdftex.def Info: logo_ub_2021.png  used on input line 21.
 (pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
  [3])
-File: logo_ub_2021.png Graphic file (type png)
-<use logo_ub_2021.png>
-Package pdftex.def Info: logo_ub_2021.png  used on input line 74.
-(pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
- [4] (../content/state_of_the_art.tex
+(../content/state_of_the_art.tex
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Å in font cmr12!
@@ -258,10 +269,9 @@ Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Å in font cmr12!
 File: logo_ub_2021.png Graphic file (type png)
 <use logo_ub_2021.png>
-Package pdftex.def Info: logo_ub_2021.png  used on input line 17.
+Package pdftex.def Info: logo_ub_2021.png  used on input line 12.
 (pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
-
-[5]
+ [4]
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Å in font cmr12!
@@ -291,7 +301,7 @@ File: logo_ub_2021.png Graphic file (type png)
 <use logo_ub_2021.png>
 Package pdftex.def Info: logo_ub_2021.png  used on input line 27.
 (pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
- [6]
+ [5]
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Å in font cmr12!
@@ -310,32 +320,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 32.
-)
+) (../content/research_goals.tex
 File: logo_ub_2021.png Graphic file (type png)
 <use logo_ub_2021.png>
-Package pdftex.def Info: logo_ub_2021.png  used on input line 75.
+Package pdftex.def Info: logo_ub_2021.png  used on input line 3.
 (pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
- [7] (../content/research_goals.tex)
+
+[6]) (../content/project_plan.tex
 File: logo_ub_2021.png Graphic file (type png)
 <use logo_ub_2021.png>
-Package pdftex.def Info: logo_ub_2021.png  used on input line 76.
+Package pdftex.def Info: logo_ub_2021.png  used on input line 16.
 (pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
- [8] (../content/project_plan.tex
-Underfull \hbox (badness 1102) in paragraph at lines 32--32
-[]|\OT1/cmr/m/n/12 Outcome: Im-proved FPGA pro-to-type that
+ [7]
+Underfull \hbox (badness 1286) in paragraph at lines 29--29
+[]|\OT1/cmr/m/n/12 Outcome: Quan-ti-ta-tive eval-u-a-tion of ex-ist-ing
  []
 
-)
+
+Underfull \vbox (badness 10000) detected at line 37
+ []
+
 File: logo_ub_2021.png Graphic file (type png)
 <use logo_ub_2021.png>
-Package pdftex.def Info: logo_ub_2021.png  used on input line 77.
+Package pdftex.def Info: logo_ub_2021.png  used on input line 37.
 (pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
- [9]
-File: logo_ub_2021.png Graphic file (type png)
-<use logo_ub_2021.png>
-Package pdftex.def Info: logo_ub_2021.png  used on input line 77.
-(pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
- [10] (./main.bbl
+[8]) (./main.bbl
 Missing character: There is no – in font cmr12!
 Missing character: There is no – in font cmti12!
 Missing character: There is no ≠ in font cmti12!
@@ -398,43 +407,44 @@ Missing character: There is no ∏ in font cmti12!
 Missing character: There is no — in font cmti12!
 Missing character: There is no è in font cmti12!
 
-Underfull \hbox (badness 7704) in paragraph at lines 72--77
+Underfull \hbox (badness 7704) in paragraph at lines 56--61
 []\OT1/cmr/m/n/12 . Cisco, ``Fog com-put-ing and the in-ter-net of things: ex-t
 end the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--77
+Underfull \hbox (badness 10000) in paragraph at lines 56--61
 \OT1/cmr/m/n/12 cloud to where the things are,''  \OT1/cmr/m/it/12 ]. URL: http
 s://www. cisco.
  []
 
 File: logo_ub_2021.png Graphic file (type png)
 <use logo_ub_2021.png>
-Package pdftex.def Info: logo_ub_2021.png  used on input line 89.
+Package pdftex.def Info: logo_ub_2021.png  used on input line 79.
 (pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
-[11])
+[9])
 File: logo_ub_2021.png Graphic file (type png)
 <use logo_ub_2021.png>
-Package pdftex.def Info: logo_ub_2021.png  used on input line 81.
+Package pdftex.def Info: logo_ub_2021.png  used on input line 80.
 (pdftex.def)             Requested size: 62.9324pt x 22.58339pt.
- [12] (./main.aux) ) 
+ [10] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2460 strings out of 492982
- 33355 string characters out of 6134896
- 102559 words of memory out of 5000000
- 5975 multiletter control sequences out of 15000+600000
- 8241 words of font info for 29 fonts, out of 8000000 for 9000
+ 2540 strings out of 492982
+ 34288 string characters out of 6134896
+ 109226 words of memory out of 5000000
+ 6050 multiletter control sequences out of 15000+600000
+ 8849 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,15n,43p,1182b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,15n,43p,1182b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
->
-Output written on main.pdf (12 pages, 87040 bytes).
+cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (10 pages, 113647 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

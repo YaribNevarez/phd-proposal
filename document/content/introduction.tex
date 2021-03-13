@@ -1,18 +1,12 @@
 \section{Introduction}
-As basic blocks of the new industrial revolution, the industrial Internet of Things (IIoT) devices are deployed along the production/assembly lines to sense the environment to further assist in making real-time response decisions on production processes or facilities, and executing the requested tasks according to the analysis of the sensed data. Furthermore, integrating Artificial Intelligence (AI) techniques, allows machines and devices to act as a lively objects with autonomous intelligence to execute more complex tasks \cite{lin2018cost}. In Industry 4.0, the smart factories are achieved by integrating technologies of the IoT, Cloud, Fog and Edge computing systems to provide computational resources needed by the industrial devices \cite{georgakopoulos2016internet, sisinni2018industrial}.
 
-However, traditional manufacturing systems perform data analysis (AI algorithms) at the Cloud/Fog/Edge levels that are lacking of efficiency in terms of latency and real-time requirements. Cloud computing platforms generally are far from the industrial devices; it consequently increases the latency, leading to the lag in data transmission, this approach cannot guarantee the real-time performance for AI tasks. Therefore, strategies of featuring hardware acceleration for AI on industrial devices are a significant perspective for ensuring and enhance real-time AI tasks, resulting in more intelligent, autonomous, and powerful industrial devices.
-
-In this proposal, it is raised the development of specialized hardware accelerators that allow resource constrained embedded devices to efficiently execute the real-time machine leaning algorithms required for industrial IoT applications.
 
 \subsection{Problem description}
-The more traditional cloud-based IIoT systems suffer from two fundamental issues \cite{de2018application}: first, a high response time originated by the large communication latency with the cloud; and second, heavy loads on cloud servers due to the processing of raw data. In traditional cloud-based IIoT the sensed data is sent in raw format (i.e. without an intelligent pre-processing) to the cloud. Considering that Machine Learning (ML) algorithms perform on the cloud, this results in a restricted execution of real-time ML.
+
 
 \subsection{Motivations}
 
-The motivation is to permit either detailed or particular analysis of data at the cloud level, where servers’ capacity can be utilized. This strategy however, exacerbates the bandwidth requirements of the system and increase dramatically the latency. The increased latency is critical when a real-time response is required, e.g. to detect safe-critical problems.
 
-To palliate the aforementioned limitations, the concept of fog and edge computing have been applied \cite{lin2018cost}. However, the concept is still a shared resource that serves several devices. Hence, the proposed strategy is to empower the devices with enhanced capacities.
 
 \subsubsection{Scientific motivations}
 \begin{enumerate}
@@ -26,5 +20,3 @@ To palliate the aforementioned limitations, the concept of fog and edge computin
 	\item System-on-Chip architectures to extend the use of IIoT for scenarios not possible today for real-time machine learning algorithms (e.g. industrial computer vision, signal recognition, feature filtering, machine translation, material inspection, etc.)
 	\item System-on-Chip architectures to reducing the cost of applying IIoT solution in Industry 4.0
 \end{enumerate}
-
-\pagebreak

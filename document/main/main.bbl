@@ -21,27 +21,11 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{lin2018cost}
-C.-C. Lin and J.-W. Yang, ``Cost-efficient deployment of fog computing systems
-  at logistics centers in industry 4.0,'' \emph{IEEE Transactions on Industrial
-  Informatics}, vol.~14, no.~10, pp. 4603--4611, 2018.
-
-\bibitem{georgakopoulos2016internet}
-D.~Georgakopoulos, P.~P. Jayaraman, M.~Fazia, M.~Villari, and R.~Ranjan,
-  ``Internet of things and edge cloud computing roadmap for manufacturing,''
-  \emph{IEEE Cloud Computing}, vol.~3, no.~4, pp. 66--73, 2016.
-
 \bibitem{sisinni2018industrial}
 E.~Sisinni, A.~Saifullah, S.~Han, U.~Jennehag, and M.~Gidlund, ``Industrial
   internet of things: Challenges, opportunities, and directions,'' \emph{IEEE
   Transactions on Industrial Informatics}, vol.~14, no.~11, pp. 4724--4734,
   2018.
-
-\bibitem{de2018application}
-M.~S. de~Brito, S.~Hoque, R.~Steinke, A.~Willner, and T.~Magedanz,
-  ``Application of the fog computing paradigm to smart factories and
-  cyber-physical systems,'' \emph{Transactions on Emerging Telecommunications
-  Technologies}, vol.~29, no.~4, p. e3184, 2018.
 
 \bibitem{aakerberg2011future}
 J.~{\AA}kerberg, M.~Gidlund, and M.~Bj{\"o}rkman, ``Future research challenges
@@ -74,6 +58,12 @@ F.~Bonomi, R.~Milito, J.~Zhu, and S.~Addepalli, ``Fog computing and its role in
   https://www. cisco.
   com/c/dam/en\_us/solutions/trends/iot/docs/computing-overview. pdf.(дата
   обращения: 10.03. 2019)}, 2015.
+
+\bibitem{de2018application}
+M.~S. de~Brito, S.~Hoque, R.~Steinke, A.~Willner, and T.~Magedanz,
+  ``Application of the fog computing paradigm to smart factories and
+  cyber-physical systems,'' \emph{Transactions on Emerging Telecommunications
+  Technologies}, vol.~29, no.~4, p. e3184, 2018.
 
 \bibitem{wang2016dlau}
 C.~Wang, L.~Gong, Q.~Yu, X.~Li, Y.~Xie, and X.~Zhou, ``Dlau: A scalable deep

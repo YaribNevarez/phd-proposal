@@ -28,11 +28,9 @@
 \usepackage{float}
 \usepackage{multirow} % col/row span in tables
 \usepackage{array}
-\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \usepackage{setspace}
 \usepackage[flushleft]{threeparttable}
+\usepackage{longtable}
 
 \newcommand\Fig[1]{\textbf{Fig.}~\ref{#1}}
 \newcommand\fig[1]{\textbf{Fig.}~\ref{#1}}
@@ -63,13 +61,14 @@
 \fancyhf{}
 \chead{\tab[5in]\includegraphics[scale=0.15]{logo_ub_2021.png}}
 \rfoot{Page \thepage}
-\lfoot{Ph.D. proposal}
+\lfoot{PhD proposal}
 
 
 \begin{document}
 
 \input{../content/cover.tex}
 \input{../content/general_information.tex}
+\input{../content/abstract.tex}
 \input{../content/introduction.tex}
 \input{../content/state_of_the_art.tex}
 \input{../content/research_goals.tex}
