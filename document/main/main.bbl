@@ -21,77 +21,263 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{sisinni2018industrial}
-E.~Sisinni, A.~Saifullah, S.~Han, U.~Jennehag, and M.~Gidlund, ``Industrial
-  internet of things: Challenges, opportunities, and directions,'' \emph{IEEE
-  Transactions on Industrial Informatics}, vol.~14, no.~11, pp. 4724--4734,
-  2018.
+\bibitem{lasi2014industry}
+H.~Lasi, P.~Fettke, H.-G. Kemper, T.~Feld, and M.~Hoffmann, ``Industry 4.0,''
+  \emph{Business \& information systems engineering}, vol.~6, no.~4, pp.
+  239--242, 2014.
 
-\bibitem{aakerberg2011future}
-J.~{\AA}kerberg, M.~Gidlund, and M.~Bj{\"o}rkman, ``Future research challenges
-  in wireless sensor and actuator networks targeting industrial automation,''
-  in \emph{2011 9th IEEE International Conference on Industrial
-  Informatics}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2011, pp.
-  410--415.
+\bibitem{espinoza2020estimating}
+H.~Espinoza, G.~Kling, F.~McGroarty, M.~O'Mahony, and X.~Ziouvelou,
+  ``Estimating the impact of the internet of things on productivity in
+  europe,'' \emph{Heliyon}, vol.~6, no.~5, p. e03935, 2020.
 
-\bibitem{lin2015industrial}
-S.-W. Lin, B.~Miller, J.~Durand, R.~Joshi, P.~Didier, A.~Chigani, R.~Torenbeek,
-  D.~Duggal, R.~Martin, G.~Bleakley \emph{et~al.}, ``Industrial internet
-  reference architecture,'' \emph{Industrial Internet Consortium (IIC), Tech.
-  Rep}, 2015.
+\bibitem{alcacer2019scanning}
+V.~Alc{\'a}cer and V.~Cruz-Machado, ``Scanning the industry 4.0: A literature
+  review on technologies for manufacturing systems,'' \emph{Engineering science
+  and technology, an international journal}, vol.~22, no.~3, pp. 899--919,
+  2019.
 
-\bibitem{aazam2014cloud}
-M.~Aazam, I.~Khan, A.~A. Alsaffar, and E.-N. Huh, ``Cloud of things:
-  Integrating internet of things and cloud computing and the issues involved,''
-  in \emph{Proceedings of 2014 11th International Bhurban Conference on Applied
-  Sciences \& Technology (IBCAST) Islamabad, Pakistan, 14th-18th January,
-  2014}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014, pp. 414--419.
+\bibitem{loh20201}
+K.-H.~L. Loh, ``1.2 fertilizing aiot from roots to leaves,'' in \emph{2020 IEEE
+  International Solid-State Circuits Conference-(ISSCC)}.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2020, pp. 15--21.
 
-\bibitem{bonomi2012fog}
-F.~Bonomi, R.~Milito, J.~Zhu, and S.~Addepalli, ``Fog computing and its role in
-  the internet of things,'' in \emph{Proceedings of the first edition of the
-  MCC workshop on Mobile cloud computing}, 2012, pp. 13--16.
+\bibitem{zhang2020empowering}
+J.~Zhang and D.~Tao, ``Empowering things with intelligence: A survey of the
+  progress, challenges, and opportunities in artificial intelligence of
+  things,'' \emph{IEEE Internet of Things Journal}, 2020.
 
-\bibitem{cisco2015fog}
-�.~Cisco, ``Fog computing and the internet of things: extend the cloud to where
-  the things are,'' \emph{Электронный ресурс]. URL:
-  https://www. cisco.
-  com/c/dam/en\_us/solutions/trends/iot/docs/computing-overview. pdf.(дата
-  обращения: 10.03. 2019)}, 2015.
+\bibitem{venkataramani2016efficient}
+S.~Venkataramani, K.~Roy, and A.~Raghunathan, ``Efficient embedded learning for
+  iot devices,'' in \emph{2016 21st Asia and South Pacific Design Automation
+  Conference (ASP-DAC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2016, pp.
+  308--311.
 
-\bibitem{de2018application}
-M.~S. de~Brito, S.~Hoque, R.~Steinke, A.~Willner, and T.~Magedanz,
-  ``Application of the fog computing paradigm to smart factories and
-  cyber-physical systems,'' \emph{Transactions on Emerging Telecommunications
-  Technologies}, vol.~29, no.~4, p. e3184, 2018.
+\bibitem{he2015spatial}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Spatial pyramid pooling in deep
+  convolutional networks for visual recognition,'' \emph{IEEE transactions on
+  pattern analysis and machine intelligence}, vol.~37, no.~9, pp. 1904--1916,
+  2015.
 
-\bibitem{wang2016dlau}
-C.~Wang, L.~Gong, Q.~Yu, X.~Li, Y.~Xie, and X.~Zhou, ``Dlau: A scalable deep
-  learning accelerator unit on fpga,'' \emph{IEEE Transactions on
-  Computer-Aided Design of Integrated Circuits and Systems}, vol.~36, no.~3,
-  pp. 513--517, 2016.
+\bibitem{liu2016ssd}
+W.~Liu, D.~Anguelov, D.~Erhan, C.~Szegedy, S.~Reed, C.-Y. Fu, and A.~C. Berg,
+  ``Ssd: Single shot multibox detector,'' in \emph{European conference on
+  computer vision}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2016, pp.
+  21--37.
 
-\bibitem{venkateshan2014hybrid}
-S.~Venkateshan, A.~Patel, and K.~Varghese, ``Hybrid working set algorithm for
-  svm learning with a kernel coprocessor on fpga,'' \emph{IEEE Transactions on
-  Very Large Scale Integration (VLSI) Systems}, vol.~23, no.~10, pp.
-  2221--2232, 2014.
+\bibitem{ren2016faster}
+S.~Ren, K.~He, R.~Girshick, and J.~Sun, ``Faster r-cnn: towards real-time
+  object detection with region proposal networks,'' \emph{IEEE transactions on
+  pattern analysis and machine intelligence}, vol.~39, no.~6, pp. 1137--1149,
+  2016.
 
-\bibitem{kim2017deepx}
-L.-W. Kim, ``Deepx: Deep learning accelerator for restricted boltzmann machine
-  artificial neural networks,'' \emph{IEEE transactions on neural networks and
-  learning systems}, vol.~29, no.~5, pp. 1441--1453, 2017.
+\bibitem{bochkovskiy2020yolov4}
+A.~Bochkovskiy, C.-Y. Wang, and H.-Y.~M. Liao, ``Yolov4: Optimal speed and
+  accuracy of object detection,'' \emph{arXiv preprint arXiv:2004.10934}, 2020.
 
-\bibitem{ragusa2018digital}
-E.~Ragusa, C.~Gianoglio, P.~Gastaldo, and R.~Zunino, ``A digital implementation
-  of extreme learning machines for resource-constrained devices,'' \emph{IEEE
-  Transactions on Circuits and Systems II: Express Briefs}, vol.~65, no.~8, pp.
-  1104--1108, 2018.
+\bibitem{ahmad2020challenges}
+I.~Ahmad, S.~Shahabuddin, T.~Kumar, E.~Harjula, M.~Meisel, M.~Juntti,
+  T.~Sauter, and M.~Ylianttila, ``Challenges of ai in wireless networks for
+  iot,'' \emph{arXiv preprint arXiv:2007.04705}, 2020.
 
-\bibitem{chung2018simplifying}
-J.~Chung, T.~Shin, and J.-S. Yang, ``Simplifying deep neural networks for
-  fpga-like neuromorphic systems,'' \emph{IEEE Transactions on Computer-Aided
-  Design of Integrated Circuits and Systems}, vol.~38, no.~11, pp. 2032--2042,
-  2018.
+\bibitem{al2019artificial}
+F.~Al-Turjman, \emph{Artificial intelligence in IoT}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Springer, 2019.
+
+\bibitem{jouppi2017datacenter}
+N.~P. Jouppi, C.~Young, N.~Patil, D.~Patterson, G.~Agrawal, R.~Bajwa, S.~Bates,
+  S.~Bhatia, N.~Boden, A.~Borchers \emph{et~al.}, ``In-datacenter performance
+  analysis of a tensor processing unit,'' in \emph{Proceedings of the 44th
+  annual international symposium on computer architecture}, 2017, pp. 1--12.
+
+\bibitem{amrouch2020npu}
+H.~Amrouch, G.~Zervakis, S.~Salamin, H.~Kattan, I.~Anagnostopoulos, and
+  J.~Henkel, ``Npu thermal management,'' \emph{IEEE Transactions on
+  Computer-Aided Design of Integrated Circuits and Systems}, vol.~39, no.~11,
+  pp. 3842--3855, 2020.
+
+\bibitem{gillani2020exploiting}
+S.~G.~A. Gillani, ``Exploiting error resilience for hardware efficiency:
+  targeting iterative and accumulation based algorithms,'' 2020.
+
+\bibitem{han2013approximate}
+J.~Han and M.~Orshansky, ``Approximate computing: An emerging paradigm for
+  energy-efficient design,'' in \emph{2013 18th IEEE European Test Symposium
+  (ETS)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2013, pp. 1--6.
+
+\bibitem{bouvier2019spiking}
+M.~Bouvier, A.~Valentian, T.~Mesquida, F.~Rummens, M.~Reyboz, E.~Vianello, and
+  E.~Beigne, ``Spiking neural networks hardware implementations and challenges:
+  A survey,'' \emph{ACM Journal on Emerging Technologies in Computing Systems
+  (JETC)}, vol.~15, no.~2, pp. 1--35, 2019.
+
+\bibitem{courbariaux2015binaryconnect}
+M.~Courbariaux, Y.~Bengio, and J.-P. David, ``Binaryconnect: Training deep
+  neural networks with binary weights during propagations,'' in \emph{Advances
+  in neural information processing systems}, 2015, pp. 3123--3131.
+
+\bibitem{han2015deep}
+S.~Han, H.~Mao, and W.~J. Dally, ``Deep compression: Compressing deep neural
+  networks with pruning, trained quantization and huffman coding,'' \emph{arXiv
+  preprint arXiv:1510.00149}, 2015.
+
+\bibitem{hubara2017quantized}
+I.~Hubara, M.~Courbariaux, D.~Soudry, R.~El-Yaniv, and Y.~Bengio, ``Quantized
+  neural networks: Training neural networks with low precision weights and
+  activations,'' \emph{The Journal of Machine Learning Research}, vol.~18,
+  no.~1, pp. 6869--6898, 2017.
+
+\bibitem{rastegari2016xnor}
+M.~Rastegari, V.~Ordonez, J.~Redmon, and A.~Farhadi, ``Xnor-net: Imagenet
+  classification using binary convolutional neural networks,'' in
+  \emph{European conference on computer vision}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2016, pp. 525--542.
+
+\bibitem{lecun1989optimal}
+Y.~LeCun, J.~Denker, and S.~Solla, ``Optimal brain damage,'' \emph{Advances in
+  neural information processing systems}, vol.~2, pp. 598--605, 1989.
+
+\bibitem{hassibi1992second}
+B.~Hassibi and D.~Stork, ``Second order derivatives for network pruning:
+  Optimal brain surgeon,'' \emph{Advances in neural information processing
+  systems}, vol.~5, pp. 164--171, 1992.
+
+\bibitem{molchanov2016pruning}
+P.~Molchanov, S.~Tyree, T.~Karras, T.~Aila, and J.~Kautz, ``Pruning
+  convolutional neural networks for resource efficient inference,'' \emph{arXiv
+  preprint arXiv:1611.06440}, 2016.
+
+\bibitem{li2016pruning}
+H.~Li, A.~Kadav, I.~Durdanovic, H.~Samet, and H.~P. Graf, ``Pruning filters for
+  efficient convnets,'' \emph{arXiv preprint arXiv:1608.08710}, 2016.
+
+\bibitem{liu2018rethinking}
+Z.~Liu, M.~Sun, T.~Zhou, G.~Huang, and T.~Darrell, ``Rethinking the value of
+  network pruning,'' \emph{arXiv preprint arXiv:1810.05270}, 2018.
+
+\bibitem{carter2010design}
+N.~P. Carter, H.~Naeimi, and D.~S. Gardner, ``Design techniques for cross-layer
+  resilience,'' in \emph{2010 Design, Automation \& Test in Europe Conference
+  \& Exhibition (DATE 2010)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2010, pp. 1023--1028.
+
+\bibitem{lotrivc2012applicability}
+U.~Lotri{\v{c}} and P.~Buli{\'c}, ``Applicability of approximate multipliers in
+  hardware neural networks,'' \emph{Neurocomputing}, vol.~96, pp. 57--65, 2012.
+
+\bibitem{du2014leveraging}
+Z.~Du, K.~Palem, A.~Lingamneni, O.~Temam, Y.~Chen, and C.~Wu, ``Leveraging the
+  error resilience of machine-learning applications for designing highly energy
+  efficient accelerators,'' in \emph{2014 19th Asia and South Pacific design
+  automation conference (ASP-DAC)}.\hskip 1em plus 0.5em minus 0.4em\relax
+  IEEE, 2014, pp. 201--206.
+
+\bibitem{mrazek2016design}
+V.~Mrazek, S.~S. Sarwar, L.~Sekanina, Z.~Vasicek, and K.~Roy, ``Design of
+  power-efficient approximate multipliers for approximate artificial neural
+  networks,'' in \emph{Proceedings of the 35th International Conference on
+  Computer-Aided Design}, 2016, pp. 1--7.
+
+\bibitem{sarwar2016multiplier}
+S.~S. Sarwar, S.~Venkataramani, A.~Raghunathan, and K.~Roy, ``Multiplier-less
+  artificial neurons exploiting error resiliency for energy-efficient neural
+  computing,'' in \emph{2016 Design, Automation \& Test in Europe Conference \&
+  Exhibition (DATE)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2016, pp.
+  145--150.
+
+\bibitem{zervakis2021approximate}
+G.~Zervakis, H.~Saadat, H.~Amrouch, A.~Gerstlauer, S.~Parameswaran, and
+  J.~Henkel, ``Approximate computing for ml: State-of-the-art, challenges and
+  visions,'' in \emph{Proceedings of the 26th Asia and South Pacific Design
+  Automation Conference}, 2021, pp. 189--196.
+
+\bibitem{nevarez2020accelerator}
+Y.~Nevarez, A.~Garcia-Ortiz, D.~Rotermund, and K.~R. Pawelzik, ``Accelerator
+  framework of spike-by-spike neural networks for inference and incremental
+  learning in embedded systems,'' in \emph{2020 9th International Conference on
+  Modern Circuits and Systems Technologies (MOCAST)}.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2020, pp. 1--5.
+
+\bibitem{ernst2007efficient}
+U.~Ernst, D.~Rotermund, and K.~Pawelzik, ``Efficient computation based on
+  stochastic spikes,'' \emph{Neural computation}, vol.~19, no.~5, pp.
+  1313--1343, 2007.
+
+\bibitem{rotermund2019recurrentsbs}
+D.~Rotermund and K.~R. Pawelzik, ``Biologically plausible learning in a deep
+  recurrent spiking network,'' \emph{bioRxiv}, 2019.
+
+\bibitem{izhikevich2004model}
+E.~M. Izhikevich, ``Which model to use for cortical spiking neurons?''
+  \emph{IEEE transactions on neural networks}, vol.~15, no.~5, pp. 1063--1070,
+  2004.
+
+\bibitem{amunts2019human}
+K.~Amunts, A.~C. Knoll, T.~Lippert, C.~M. Pennartz, P.~Ryvlin, A.~Destexhe,
+  V.~K. Jirsa, E.~D’Angelo, and J.~G. Bjaalie, ``The human brain project --
+  synergy between neuroscience, computing, informatics, and brain-inspired
+  technologies,'' \emph{PLoS biology}, vol.~17, no.~7, p. e3000344, 2019.
+
+\bibitem{rotermund2019Backpropagation}
+D.~Rotermund and K.~R. Pawelzik, ``Back-propagation learning in deep
+  spike-by-spike networks,'' \emph{Frontiers in Computational Neuroscience},
+  vol.~13, p.~55, 2019.
+
+\bibitem{rotermund2018massively}
+------, ``Massively parallel {FPGA} hardware for spike-by-spike networks,''
+  \emph{bioRxiv}, 2019.
+
+\bibitem{venkataramani2015approximate}
+S.~Venkataramani, S.~T. Chakradhar, K.~Roy, and A.~Raghunathan, ``Approximate
+  computing and the quest for computing efficiency,'' in \emph{2015 52nd
+  ACM/EDAC/IEEE Design Automation Conference (DAC)}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2015, pp. 1--6.
+
+\bibitem{miao2012modeling}
+J.~Miao, K.~He, A.~Gerstlauer, and M.~Orshansky, ``Modeling and synthesis of
+  quality-energy optimal approximate adders,'' in \emph{Proceedings of the
+  International Conference on Computer-Aided Design}, 2012, pp. 728--735.
+
+\bibitem{shafique2015low}
+M.~Shafique, W.~Ahmad, R.~Hafiz, and J.~Henkel, ``A low latency generic
+  accuracy configurable adder,'' in \emph{2015 52nd ACM/EDAC/IEEE Design
+  Automation Conference (DAC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2015, pp. 1--6.
+
+\bibitem{zervakis2019vader}
+G.~Zervakis, K.~Koliogeorgi, D.~Anagnostos, N.~Zompakis, and K.~Siozios,
+  ``Vader: Voltage-driven netlist pruning for cross-layer approximate
+  arithmetic circuits,'' \emph{IEEE Transactions on Very Large Scale
+  Integration (VLSI) Systems}, vol.~27, no.~6, pp. 1460--1464, 2019.
+
+\bibitem{saadat2018minimally}
+H.~Saadat, H.~Bokhari, and S.~Parameswaran, ``Minimally biased multipliers for
+  approximate integer and floating-point multiplication,'' \emph{IEEE
+  Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  vol.~37, no.~11, pp. 2623--2635, 2018.
+
+\bibitem{sarwar2018energy}
+S.~S. Sarwar, S.~Venkataramani, A.~Ankit, A.~Raghunathan, and K.~Roy,
+  ``Energy-efficient neural computing with approximate multipliers,'' \emph{ACM
+  Journal on Emerging Technologies in Computing Systems (JETC)}, vol.~14,
+  no.~2, pp. 1--23, 2018.
+
+\bibitem{tasoulas2020weight}
+Z.-G. Tasoulas, G.~Zervakis, I.~Anagnostopoulos, H.~Amrouch, and J.~Henkel,
+  ``Weight-oriented approximation for energy-efficient neural network inference
+  accelerators,'' \emph{IEEE Transactions on Circuits and Systems I: Regular
+  Papers}, vol.~67, no.~12, pp. 4670--4683, 2020.
+
+\bibitem{zervakis2018multi}
+G.~Zervakis, S.~Xydis, D.~Soudris, and K.~Pekmestzi, ``Multi-level approximate
+  accelerator synthesis under voltage island constraints,'' \emph{IEEE
+  Transactions on Circuits and Systems II: Express Briefs}, vol.~66, no.~4, pp.
+  607--611, 2018.
+
+\bibitem{lee2017high}
+S.~Lee, L.~K. John, and A.~Gerstlauer, ``High-level synthesis of approximate
+  hardware under joint precision and voltage scaling,'' in \emph{Design,
+  Automation \& Test in Europe Conference \& Exhibition (DATE), 2017}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2017, pp. 187--192.
 
 \end{thebibliography}
