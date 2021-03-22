@@ -2,10 +2,11 @@
 % General background
 Industry is the piece of an economy that produces material goods which are highly mechanized and automatized. Since the beginning of industrialization, technological leaps have led to paradigm shifts that are now called "industrial revolutions": from mechanization, electrification, and later, digitalization (the so-called 3rd industrial revolution). Based on the advanced digitalization within factories, the combination of Internet technologies and future-oriented technologies in the field of "smart" things (machines and products) seems to result in a new fundamental paradigm shift in industrial production. Emerging from this future expectation, the term "Industry 4.0" was established for an expected "4th industrial revolution" \cite{lasi2014industry}.
 
+\subsection{Internet-of-Things in Industry}
 % Context background
 To build the emerging environment of Industry 4.0, disruptive technologies are required to handle autonomous communications between all industrial devices throughout the factory and the Internet. Such technologies offer the potential to transform the industry along the entire production chain and stimulate productivity and overall economic growth \cite{espinoza2020estimating}. These technologies include cloud computing, big data, and specially a new generation of IoT devices fused with Cyber-Physical systems (CPS), augmented reality, ML analytics, and Artificial Intelligence (AI) in general \cite{alcacer2019scanning}.
 
-\subsection{ML Algorithms in Embedded Systems}
+\subsection{Machine Learning Algorithms in Internet-of-Things}
 % Particular background
 The continuous evolution of ML/AI algorithms and IoT devices has not only made various ML/AI applications the major workload running on these embedded devices, but ML/AI has become the main approach for industrial solutions, especially in the rise of Industry 4.0 \cite{alcacer2019scanning}. In fact, there is a clear motivation to run ML/AI algorithms on IoT devices because of \cite{loh20201}: (1) feasibility of mission-critical real-time processing and inference; (2) privacy and security of data; (3) offline operation capability; and (4) stressed communication robustness. Hence, the traditional term of IoT has also been redefined as AI of Things (AIoT) to emphasize the impact of ML/AI on this technology \cite{zhang2020empowering}.
 
@@ -28,43 +29,44 @@ Researchers focusing on embedded applications started lowering the precision of 
 
 \subsubsection{Approximate Computing}
 %Geneal background
-Approximate computing introduces quality loss as a new design metric to be traded off for energy, performance, and/or resource utilization. Data redundancy of neural networks incorporate a certain degree of robustness against random external and internal perturbations, for instance, processing quality loss. This property can be exploited in a cross-layer resilience approach \cite{carter2010design}: by leveraging error-resilience at algorithmic-level, it can be allowed a certain degree of inaccuracies at the computing-level. This approach consists of designing processing elements that approximate their computation by employing cleverly modified algorithmic logic units \cite{han2013approximate}. 
+Approximate computing is an emerging design paradigm that is able to tradeoff computation quality (e.g., accuracy) and computational efficiency (e.g., in run-time, chip-area, and/or energy) by exploiting the error-resilience properties of applications \cite{gillani2020exploiting, zhang2015approxann}. Data redundancy of neural networks incorporate a certain degree of resilience against random external and internal perturbations, for instance, random hardware faults. This property can be exploited in a cross-layer resilience approach \cite{carter2010design}: by leveraging error-resilience at algorithmic-level, it can be allowed a certain degree of inaccuracies at the computing-level. This approach consists of designing processing elements that approximate their computation by employing cleverly modified algorithmic logic units \cite{han2013approximate}. 
 
 Approximate computing techniques allow substantial enhancement in processing efficiency with moderated accuracy degradation. Some research papers have shown the feasibility of applying approximate computing to the inference stage of neural networks \cite{lotrivc2012applicability, han2013approximate, du2014leveraging, mrazek2016design, sarwar2016multiplier, zervakis2021approximate}. Such techniques usually demonstrated small inference accuracy degradation, but significant enhancement in computational performance, resource utilization, and energy consumption. Hence, by taking advantage of the intrinsic error-tolerance of neural networks, approximate computing is positioned as a promising approach for inference on resource-limited devices. Nonetheless, the complex  state-of-the-art of CNN-based algorithms has not been sufficiently addressed with approximate computing techniques.
 
 
 \subsection{Problem Statement}
 
-While the state-of-the-art approximate computing techniques have presented highly-efficient adders and multipliers, they do not sufficiently address accelerator designs for ML algorithms, specifically for the new generation of neural networks.
+While the state-of-the-art approximate computing techniques have presented highly-efficient adders and multipliers, they do not sufficiently address accelerator designs for ML algorithms, specifically neural networks.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Research Objective}
-Considering the broad range of ML algorithms, te research objective for this PhD proposal is the following: \emph{Investigating formal design methodologies for high-efficiency neural network hardware accelerator based on approximate computing in the scope of embedded systems.}
+Considering the broad range of ML algorithms, te research objective for this PhD proposal is the following: \emph{Investigating formal design methodologies for high-efficiency neural network hardware accelerator based on digital approximate computing in the scope of embedded systems.}
 
-\subsubsection{Research questions}
+\subsubsection{Research Questions}
 
 \begin{itemize}
 \item How to analyze neural networks for error resilience?
 \item How to exploit intrinsic error resilience of neural networks effectively?
 \item How to design neural network accelerators based on approximate computing?
-\item Considering the case study of SNNs applied for fundamental research, how do the proposed approximate computing methodology affects the quality and efficiency of the processing?
-\item Considering the case study of CNNs applied for industrial computer vision, how do the proposed approximate computing methodology affects the quality and efficiency of the processing?
+\item Considering the case study of SNNs applied in fundamental research, how do the proposed approximate computing methodology affects the quality and efficiency of the processing?
+\item Considering the case study of CNNs applied in industrial computer vision, how do the proposed approximate computing methodology affects the quality and efficiency of the processing?
 \item What are the possibilities and challenges to embrace approximate computing for neural network accelerators?
+\item What are the possibilities and challenges to embrace approximate computing for neural network accelerators in safety-critical applications?
 
 \end{itemize}
 
 \subsection{Motivations}
 
-\subsubsection{Fundamental}
+\subsubsection{Fundamental Research}
 \begin{enumerate}
-	\item Derive formal methodologies to address hardware design for neural network accelerators based on approximate computing
-	\item Promote the next generation of neural network accelerators based on approximate computing
+	\item Derive formal methodologies to address hardware design for resource- and energy-efficient neural network accelerators based on approximate computing.
+	\item Contribute to de foundations of approximate neural network computing.
 \end{enumerate}
 
-\subsubsection{Practical}
+\subsubsection{Expected Benefits}
 \begin{enumerate}
-	\item Support the growing demand of processing capabilities of ML algorithms in the scope of embedded systems
-	\item Contribute with System-on-Chip architectures to extend the use of AIoT for scenarios not possible today for real-time machine learning algorithms (e.g. industrial computer vision, signal recognition, feature filtering, machine translation, material inspection, etc.)
+	\item A sustainable development/expansion of resource-hungry ML algorithms in embedded systems.
+	\item An energy-efficient industrial environment.
 \end{enumerate}
 
 
@@ -78,28 +80,6 @@ Considering the broad range of ML algorithms, te research objective for this PhD
 % (Expected) Contributions and results of the proposed solution and methodology 
 
 
-	To sustain the continuous expansion of ML applications on resource-constrained devices, approximate computing will gradually transform from a design alternative to an essential prerequisite. This PhD proposal focuses on the investigation of approximate computing techniques to exploit the intrinsic error resilience of ML algorithms to optimize computing embedded systems at the hardware architecture and circuit-level to achieve efficiency gains. The goal of this research is to contribute to state-of-the-art knowledge of this domain with formal methodologies to address accelerator designs for SNNs and deep CNNs. Furthermore, the expected outcome of this work is to develop high-efficiency accelerator architectures for SNN and deep CNN algorithms for computer vision applications (e.g., real-time multiple object detection and classification). Finally, the motivation of this work is to support the growing demand of processing capabilities of ML algorithms in the scope of embedded systems and to contribute to the rise of a sustainable power-efficient next generation of neural network accelerators based on approximate computing.
-
-
-
-SNNs offer advantageous robustness and the potential to achieve a power efficiency closer to that of the human brain. SNNs emulate the real behavior of neurons in different levels of detail. The more detailed the biological part is emulated, the greater the computational complexity \cite{izhikevich2004model,amunts2019human}. Most of today's SNNs use a very detailed model. In contrast, Spike-By-Spike (SbS) neural networks are on the less realistic side of the biological realism scale \cite{rotermund2019Backpropagation,ernst2007efficient}. In spite of that, SbS still uses stochastic spikes as a means of transmitting information between populations of neurons, and thus retains the robustness advantages of SNNs. Correspondingly, the hardware complexity of the approach is greatly reduced
-	\cite{nevarez2020accelerator,rotermund2018massively}.
-
-
-%%%%%%% Contributions
-
-Moreover, since approximations and noise have qualitatively the same effect\cite{venkataramani2015approximate}, we apply noise tolerance plots as an intuitive visual measure to provide insights into the quality degradation of SbS networks under approximate processing effects.
-
-Our main contributions are as follows:
-
-
-
-
-Driven by this high potential for power reduction, designing approximate circuits has attracted significant research interest. At the custom hardware level, approximate computing targets mainly arithmetic units \cite{miao2012modeling, shafique2015low, zervakis2019vader, saadat2018minimally} (e.g., adders and multipliers) since they form the core components of all computations and a vast number of error-tolerant applications. Specifically, in NN inference the majority of the energy is consumed in the multiplication operations. Recent research showed that employing approximate multipliers in NN inference can deliver significant energy savings for a minimal loss in accuracy \cite{saadat2018minimally, sarwar2018energy, tasoulas2020weight}. However, designing approximate circuits under quality constraints heavily increases the design time cycle since the designer has to verify both functionality and optimality as well as operating within error bounds \cite{zervakis2018multi}. This task becomes even more challenging as the circuit’s complexity increases. To this end, several research activities, such as approximate high-level synthesis (AHLS) \cite{lee2017high}, focus on automating the generation of approximate circuits. Approximate HLS estimates error propagations and distributes the available error budget to the different approximate sub-components of a larger accelerator, such as convolution operators and generic matrix multiply units. As a result, AHLS enables generating complex approximate micro-architectures that satisfy given quality requirements.
-
-Moreover, approximate computing is further subdivided into static and dynamically reconfigurable approximation techniques. The latter, leveraging that error-tolerance and the induced errors are context- and input-dependent, aim to improve accuracy by providing a fine grain quality control and/or to further boost (power, energy, and/or delay) gains by applying more aggressive approximation on less-sensitive inputs. Finally, reconfigurable approximation was also recently applied to address thermal constraints \cite{amrouch2020npu}. Instead of addressing thermal emergencies by reducing performance, by reducing the accuracy and hence dynamic power in the same area, the circuit’s power density decreases, resulting in lower temperatures.
-
-In this paper, we study state-of-the art approaches in each of the aforementioned categories and analyze their application in machine learning and neural network domains. In Section 2, we first evaluate approximate multipliers \cite{saadat2018minimally} at the component level and in Section 3, we then focus on AHLS \cite{lee2017high} approaches targeting approximate design automation at the complete processor or accelerator level. Section 4 further examines neural network specific runtime reconfigurable approximation techniques that target energy and/or temperature optimization. Finally, in Section 5, we discuss the challenges, limitations, and open issues of approximate computing applications in the machine learning domain.
 
 
 

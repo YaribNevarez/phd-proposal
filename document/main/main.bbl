@@ -155,6 +155,12 @@ H.~Li, A.~Kadav, I.~Durdanovic, H.~Samet, and H.~P. Graf, ``Pruning filters for
 Z.~Liu, M.~Sun, T.~Zhou, G.~Huang, and T.~Darrell, ``Rethinking the value of
   network pruning,'' \emph{arXiv preprint arXiv:1810.05270}, 2018.
 
+\bibitem{zhang2015approxann}
+Q.~Zhang, T.~Wang, Y.~Tian, F.~Yuan, and Q.~Xu, ``Approxann: An approximate
+  computing framework for artificial neural network,'' in \emph{2015 Design,
+  Automation \& Test in Europe Conference \& Exhibition (DATE)}.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 2015, pp. 701--706.
+
 \bibitem{carter2010design}
 N.~P. Carter, H.~Naeimi, and D.~S. Gardner, ``Design techniques for cross-layer
   resilience,'' in \emph{2010 Design, Automation \& Test in Europe Conference
@@ -191,47 +197,95 @@ G.~Zervakis, H.~Saadat, H.~Amrouch, A.~Gerstlauer, S.~Parameswaran, and
   visions,'' in \emph{Proceedings of the 26th Asia and South Pacific Design
   Automation Conference}, 2021, pp. 189--196.
 
-\bibitem{nevarez2020accelerator}
-Y.~Nevarez, A.~Garcia-Ortiz, D.~Rotermund, and K.~R. Pawelzik, ``Accelerator
-  framework of spike-by-spike neural networks for inference and incremental
-  learning in embedded systems,'' in \emph{2020 9th International Conference on
-  Modern Circuits and Systems Technologies (MOCAST)}.\hskip 1em plus 0.5em
-  minus 0.4em\relax IEEE, 2020, pp. 1--5.
+\bibitem{dos2018analyzing}
+F.~F. dos Santos, P.~F. Pimenta, C.~Lunardi, L.~Draghetti, L.~Carro, D.~Kaeli,
+  and P.~Rech, ``Analyzing and increasing the reliability of convolutional
+  neural networks on gpus,'' \emph{IEEE Transactions on Reliability}, vol.~68,
+  no.~2, pp. 663--677, 2018.
 
-\bibitem{ernst2007efficient}
-U.~Ernst, D.~Rotermund, and K.~Pawelzik, ``Efficient computation based on
-  stochastic spikes,'' \emph{Neural computation}, vol.~19, no.~5, pp.
-  1313--1343, 2007.
+\bibitem{whatmough2018dnn}
+P.~N. Whatmough, S.~K. Lee, D.~Brooks, and G.-Y. Wei, ``Dnn engine: A 28-nm
+  timing-error tolerant sparse deep neural network processor for iot
+  applications,'' \emph{IEEE Journal of Solid-State Circuits}, vol.~53, no.~9,
+  pp. 2722--2731, 2018.
 
-\bibitem{rotermund2019recurrentsbs}
-D.~Rotermund and K.~R. Pawelzik, ``Biologically plausible learning in a deep
-  recurrent spiking network,'' \emph{bioRxiv}, 2019.
+\bibitem{azizimazreah2018tolerating}
+A.~Azizimazreah, Y.~Gu, X.~Gu, and L.~Chen, ``Tolerating soft errors in deep
+  learning accelerators with reliable on-chip memory designs,'' in \emph{2018
+  IEEE International Conference on Networking, Architecture and Storage
+  (NAS)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2018, pp. 1--10.
 
-\bibitem{izhikevich2004model}
-E.~M. Izhikevich, ``Which model to use for cortical spiking neurons?''
-  \emph{IEEE transactions on neural networks}, vol.~15, no.~5, pp. 1063--1070,
-  2004.
+\bibitem{li2017understanding}
+G.~Li, S.~K.~S. Hari, M.~Sullivan, T.~Tsai, K.~Pattabiraman, J.~Emer, and S.~W.
+  Keckler, ``Understanding error propagation in deep learning neural network
+  (dnn) accelerators and applications,'' in \emph{Proceedings of the
+  International Conference for High Performance Computing, Networking, Storage
+  and Analysis}, 2017, pp. 1--12.
 
-\bibitem{amunts2019human}
-K.~Amunts, A.~C. Knoll, T.~Lippert, C.~M. Pennartz, P.~Ryvlin, A.~Destexhe,
-  V.~K. Jirsa, E.~D’Angelo, and J.~G. Bjaalie, ``The human brain project --
-  synergy between neuroscience, computing, informatics, and brain-inspired
-  technologies,'' \emph{PLoS biology}, vol.~17, no.~7, p. e3000344, 2019.
+\bibitem{salami2018resilience}
+B.~Salami, O.~S. Unsal, and A.~C. Kestelman, ``On the resilience of rtl nn
+  accelerators: Fault characterization and mitigation,'' in \emph{2018 30th
+  International Symposium on Computer Architecture and High Performance
+  Computing (SBAC-PAD)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2018, pp.
+  322--329.
 
-\bibitem{rotermund2019Backpropagation}
-D.~Rotermund and K.~R. Pawelzik, ``Back-propagation learning in deep
-  spike-by-spike networks,'' \emph{Frontiers in Computational Neuroscience},
-  vol.~13, p.~55, 2019.
+\bibitem{marques2017unreliable}
+J.~Marques, J.~Andrade, and G.~Falcao, ``Unreliable memory operation on a
+  convolutional neural network processor,'' in \emph{2017 IEEE International
+  Workshop on Signal Processing Systems (SiPS)}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2017, pp. 1--6.
 
-\bibitem{rotermund2018massively}
-------, ``Massively parallel {FPGA} hardware for spike-by-spike networks,''
-  \emph{bioRxiv}, 2019.
+\bibitem{reagen2018ares}
+B.~Reagen, U.~Gupta, L.~Pentecost, P.~Whatmough, S.~K. Lee, N.~Mulholland,
+  D.~Brooks, and G.-Y. Wei, ``Ares: A framework for quantifying the resilience
+  of deep neural networks,'' in \emph{2018 55th ACM/ESDA/IEEE Design Automation
+  Conference (DAC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2018, pp.
+  1--6.
 
-\bibitem{venkataramani2015approximate}
-S.~Venkataramani, S.~T. Chakradhar, K.~Roy, and A.~Raghunathan, ``Approximate
-  computing and the quest for computing efficiency,'' in \emph{2015 52nd
-  ACM/EDAC/IEEE Design Automation Conference (DAC)}.\hskip 1em plus 0.5em minus
-  0.4em\relax IEEE, 2015, pp. 1--6.
+\bibitem{li2018smartshuttle}
+J.~Li, G.~Yan, W.~Lu, S.~Jiang, S.~Gong, J.~Wu, and X.~Li, ``Smartshuttle:
+  Optimizing off-chip memory accesses for deep learning accelerators,'' in
+  \emph{2018 Design, Automation \& Test in Europe Conference \& Exhibition
+  (DATE)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2018, pp. 343--348.
+
+\bibitem{piuri2001analysis}
+V.~Piuri, ``Analysis of fault tolerance in artificial neural networks,''
+  \emph{Journal of Parallel and Distributed Computing}, vol.~61, no.~1, pp.
+  18--48, 2001.
+
+\bibitem{schorn2020automated}
+C.~Schorn, T.~Elsken, S.~Vogel, A.~Runge, A.~Guntoro, and G.~Ascheid,
+  ``Automated design of error-resilient and hardware-efficient deep neural
+  networks,'' \emph{Neural Computing and Applications}, vol.~32, no.~24, pp.
+  18\,327--18\,345, 2020.
+
+\bibitem{guerraoui2017neurons}
+R.~Guerraoui \emph{et~al.}, ``When neurons fail,'' in \emph{2017 IEEE
+  International Parallel and Distributed Processing Symposium (IPDPS)}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2017, pp. 1028--1037.
+
+\bibitem{venkataramani2014axnn}
+S.~Venkataramani, A.~Ranjan, K.~Roy, and A.~Raghunathan, ``Axnn:
+  Energy-efficient neuromorphic systems using approximate computing,'' in
+  \emph{2014 IEEE/ACM International Symposium on Low Power Electronics and
+  Design (ISLPED)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014, pp.
+  27--32.
+
+\bibitem{bach2015pixel}
+S.~Bach, A.~Binder, G.~Montavon, F.~Klauschen, K.-R. M{\"u}ller, and W.~Samek,
+  ``On pixel-wise explanations for non-linear classifier decisions by
+  layer-wise relevance propagation,'' \emph{PloS one}, vol.~10, no.~7, p.
+  e0130140, 2015.
+
+\bibitem{montavon2018methods}
+G.~Montavon, W.~Samek, and K.-R. M{\"u}ller, ``Methods for interpreting and
+  understanding deep neural networks,'' \emph{Digital Signal Processing},
+  vol.~73, pp. 1--15, 2018.
+
+\bibitem{montavon2017explaining}
+G.~Montavon, S.~Lapuschkin, A.~Binder, W.~Samek, and K.-R. M{\"u}ller,
+  ``Explaining nonlinear classification decisions with deep taylor
+  decomposition,'' \emph{Pattern Recognition}, vol.~65, pp. 211--222, 2017.
 
 \bibitem{miao2012modeling}
 J.~Miao, K.~He, A.~Gerstlauer, and M.~Orshansky, ``Modeling and synthesis of
@@ -279,5 +333,12 @@ S.~Lee, L.~K. John, and A.~Gerstlauer, ``High-level synthesis of approximate
   hardware under joint precision and voltage scaling,'' in \emph{Design,
   Automation \& Test in Europe Conference \& Exhibition (DATE), 2017}.\hskip
   1em plus 0.5em minus 0.4em\relax IEEE, 2017, pp. 187--192.
+
+\bibitem{nevarez2020accelerator}
+Y.~Nevarez, A.~Garcia-Ortiz, D.~Rotermund, and K.~R. Pawelzik, ``Accelerator
+  framework of spike-by-spike neural networks for inference and incremental
+  learning in embedded systems,'' in \emph{2020 9th International Conference on
+  Modern Circuits and Systems Technologies (MOCAST)}.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2020, pp. 1--5.
 
 \end{thebibliography}
