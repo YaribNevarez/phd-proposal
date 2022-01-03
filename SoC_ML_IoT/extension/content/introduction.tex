@@ -1,0 +1,86 @@
+\section{Introduction}
+% General background
+Industry is the piece of an economy that produces material goods which are highly mechanized and automatized. Since the beginning of industrialization, technological leaps have led to paradigm shifts that are now called "industrial revolutions": from mechanization, electrification, and later, digitalization (the so-called 3rd industrial revolution). Based on the advanced digitalization within factories, the combination of Internet technologies and future-oriented technologies in the field of "smart" things (machines and products) seems to result in a new fundamental paradigm shift in industrial production. Emerging from this future expectation, the term "Industry 4.0" was established for an expected "4th industrial revolution" \cite{lasi2014industry}.
+
+\subsection{Internet-of-Things in Industry}
+% Context background
+To build the emerging environment of Industry 4.0, disruptive technologies are required to handle autonomous communications between all industrial devices throughout the factory and the Internet. Such technologies offer the potential to transform the industry along the entire production chain and stimulate productivity and overall economic growth \cite{espinoza2020estimating}. These technologies include cloud computing, big data, and specially a new generation of IoT devices fused with Cyber-Physical systems (CPS), augmented reality, ML analytics, and Artificial Intelligence (AI) in general \cite{alcacer2019scanning}.
+
+\subsection{Machine Learning Algorithms in Internet-of-Things}
+% Particular background
+The continuous evolution of ML/AI algorithms and IoT devices has not only made various ML/AI applications the major workload running on these embedded devices, but ML/AI has become the main approach for industrial solutions, especially in the rise of Industry 4.0 \cite{alcacer2019scanning}. In fact, there is a clear motivation to run ML/AI algorithms on IoT devices because of \cite{loh20201}: (1) feasibility of mission-critical real-time processing and inference; (2) privacy and security of data; (3) offline operation capability; and (4) stressed communication robustness. Hence, the traditional term of IoT has also been redefined as AI of Things (AIoT) to emphasize the impact of ML/AI on this technology \cite{zhang2020empowering}.
+
+% Problem to solve
+\subsection{Constraints}
+The problem lies in the fact that state-of-the-art ML/AI algorithms, particularly DNNs, are highly compute and data intensive. This represents significant computational challenges across the spectrum of computing hardware, specially in the scope of embedded systems \cite{venkataramani2016efficient}. One of the most deployed applications is computer vision using CNNs. Compared to the conventional image processing approaches, the CNN accuracy has improved significantly that by 2015, a human can no longer beat a computer in image classification \cite{loh20201}. The early development of CNNs before 2016 mainly focused on accuracy improvement without considering computational costs. While accuracy of deep CNN for image classification improved 24\% between 2012 and 2016, the demand on hardware resources increased more than $10\times$. Starting from 2017, significant attention was paid to improve hardware efficiency in terms of compute power, memory bandwidth, and power consumption, while maintaining accuracy at a similar level to human perception \cite{venkataramani2016efficient}. Nonetheless, the state-of-the-art of CNN-based algorithms, such as multiple object detection models (e.g., SPP-net \cite{he2015spatial}, SSD \cite{liu2016ssd}, Faster R-CNN \cite{ren2016faster}, and YOLOv4 \cite{bochkovskiy2020yolov4}), are still unsuitable for the resource-limited nature of embedded systems \cite{ahmad2020challenges, al2019artificial}.
+
+% Consequences of the problem
+Consequently, the recent breakthroughs in ML applications have brought significant advancements in neural network processors \cite{jouppi2017datacenter}. These rapid evolution, however, came at the cost of an important demand for computational power. Hence, to bring the inference speed to an acceptable level, custom ASIC Neural Processing Units (NPUs) are becoming ubiquitous in both embedded and general purpose computing. NPUs perform several tera operations per second in a confined area. Therefore, they become subject to elevated on-chip power densities that rapidly result in excessive on-chip temperatures during operation \cite{amrouch2020npu}.
+These design efforts focused on power-hungry parallel computing techniques, yet unsustainable for resource-constrained devices.
+ As a result, radical changes to conventional computing approaches are required in order to sustain and improve performance while satisfying mandatory energy and temperature constraints \cite{gillani2020exploiting}.
+
+%%%%%%%%%%%%%%
+\subsection{Alternatives}
+% Alternatives and possible solutions for the problem
+To overcome the problem, based on the error resilience of ML algorithms, an evident solution is approximate computing. This computing paradigm has been used in a wide range of applications to increase the hardware computational efficiency\cite{han2013approximate}. For neural network applications, two main approximation strategies are used, namely network compression and classical approximate computing\cite{bouvier2019spiking}.
+
+\subsubsection{Network Compression and Quantization}
+Researchers focusing on embedded applications started lowering the precision of weights and activation maps to shrink the memory footprint of the large number of parameters representing DNNs, a method known as network quantization. In this manner, reduced bit precision causes a small accuracy loss \cite{courbariaux2015binaryconnect, han2015deep, hubara2017quantized, rastegari2016xnor}. In addition to quantization, network pruning reduces the model size by removing structural portions of the parameters and its associated computations \cite{lecun1989optimal,hassibi1992second}. This method has been identified as an effective technique to improve the efficiency of CNN for applications with limited computational budget\cite{molchanov2016pruning,li2016pruning, liu2018rethinking}. These techniques leverage the intrinsic error-tolerance of neural networks, as well as their ability to recover from accuracy degradation while training.
+
+\subsubsection{Approximate Computing}
+%Geneal background
+Approximate computing is an emerging design paradigm that is able to tradeoff computation quality (e.g., accuracy) and computational efficiency (e.g., in run-time, chip-area, and/or energy) by exploiting the error resilience properties of applications \cite{gillani2020exploiting, zhang2015approxann}. Data redundancy of neural networks incorporate a certain degree of resilience against random external and internal perturbations, for instance, random hardware faults. This property can be exploited in a cross-layer resilience approach \cite{carter2010design}: by leveraging error resilience at algorithmic-level, it can be allowed a certain degree of inaccuracies at the computing-level. This approach consists of designing processing elements that approximate their computation by employing cleverly modified algorithmic logic units \cite{han2013approximate}. 
+
+Approximate computing techniques allow substantial enhancement in processing efficiency with moderated accuracy degradation. Some research papers have shown the feasibility of applying approximate computing to the inference stage of neural networks \cite{lotrivc2012applicability, han2013approximate, du2014leveraging, mrazek2016design, sarwar2016multiplier, zervakis2021approximate}. Such techniques usually demonstrated small inference accuracy degradation, but significant enhancement in computational performance, resource utilization, and energy consumption. Hence, by taking advantage of the intrinsic error-tolerance of neural networks, approximate computing is positioned as a promising approach for inference on resource-limited devices. Nonetheless, the complex  state-of-the-art of CNN-based algorithms has not been sufficiently addressed with approximate computing techniques.
+
+
+\subsection{Problem Statement}
+
+While the state-of-the-art approximate computing techniques have presented highly-efficient adders and multipliers, they do not sufficiently address accelerator designs for ML algorithms, specifically neural networks.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Research Objective}
+Considering the broad range of ML algorithms, te research objective for this PhD proposal is the following: \emph{Investigating formal design methodologies for high-efficiency neural network hardware accelerator based on digital approximate computing in the scope of embedded systems.}
+
+\subsubsection{Research Questions}
+
+\begin{itemize}
+\item How to analyze neural networks for error resilience?
+\item How to exploit intrinsic error resilience of neural networks effectively?
+\item How to design neural network accelerators based on approximate computing?
+\item Considering the case study of SNNs applied in fundamental research, how do the proposed approximate computing methodology affects the quality and efficiency of the processing?
+\item Considering the case study of CNNs applied in industrial computer vision, how do the proposed approximate computing methodology affects the quality and efficiency of the processing?
+\item What are the possibilities and challenges to embrace approximate computing for neural network accelerators?
+\item What are the possibilities and challenges to embrace approximate computing for neural network accelerators in safety-critical applications?
+
+\end{itemize}
+
+\subsection{Motivations}
+
+\subsubsection{Fundamental Research}
+\begin{enumerate}
+	\item Derive formal methodologies to address hardware design for resource- and energy-efficient neural network accelerators based on approximate computing.
+	\item Contribute to de foundations of approximate neural network computing.
+\end{enumerate}
+
+\subsubsection{Expected Benefits}
+\begin{enumerate}
+	\item A sustainable development/expansion of resource-hungry ML algorithms in embedded systems.
+	\item An energy-efficient industrial environment.
+\end{enumerate}
+
+
+
+% Introducttion of the proposed solution, background and state-of-the-art
+
+% Introducttion of the proposed methodology, background and state-of-the-art
+
+% (Expected) Benefits of the proposed solution and methodology 
+
+% (Expected) Contributions and results of the proposed solution and methodology 
+
+
+
+
+
+

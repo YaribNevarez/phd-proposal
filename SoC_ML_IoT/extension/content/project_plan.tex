@@ -1,0 +1,52 @@
+\section{Project plan}
+The expected duration of this PhD project is 3 years. Start date: May 27, 2019. End date: May 27, 2022. The prospective milestone schedule is shown in \Tab{tab:mileston_schedule}. The plan of this PhD project is divided into four phases that are subdivided into tasks as follows:
+
+\subsection{Phase 1 (completed)}
+\begin{enumerate}
+\item Research of hardware design methodologies for custom neural network accelerators in embedded FPGA.
+\item Design and implementation of an scalable neural network accelerator framework for design exploration.
+\item Implement an spiking neural network model using the accelerator framework.
+\item Report experimental results in a conference publication.
+\end{enumerate}
+
+\subsection{Phase 2 (completed)}
+\begin{enumerate}
+	\item Investigate error resilience of the SNN (Spike-by-Spike neural network).
+	\item Derive approximate computing methodology to exploit the error resilience of the SNN.
+	\item Implement the approximate computing approach on the neural network accelerator framework on FPGA.
+	\item Report approximate computing approach, methodology, and experimental results in a journal publication.
+\end{enumerate}
+
+\subsection{Phase 3}
+\begin{enumerate}
+	\item Extend the design exploration framework to support deep CNN.
+	\item Extend the design exploration framework to support CNN-based multiple object detection for computer vision.
+	\item Implement an state-of-the-art multiple object detection algorithm on FPGA (e.g., YOLOv4 \cite{bochkovskiy2020yolov4}).
+	\item Investigate error resilience analysis of CNN-based detection algorithm.
+	\item Implement hardware accelerator with the proposed approximate computing approach and design methodology.
+	\item Report approximate computing approach, methodology, and experimental results in a journal publication.
+\end{enumerate}
+
+\subsection{Phase 4}
+\begin{enumerate}
+\item PhD thesis writing.
+\end{enumerate}
+	
+	\begin{longtable}{|l|l|m{9cm}|}
+		\hline
+		\rowcolor[HTML]{C0C0C0} 
+		\textbf{Milestone} & \textbf{Date}   & \textbf{Description}                                                                                                                                                                                                                                                                                                                                                                                                                                                                \\ \hline
+		M1                 & September, 2019 & Completion of literature search                                                                                                                                                                                                                                                                                                                                                                                                                                                     \\ \hline
+		M2                 & January, 2020   & Understand the key design considerations for efficient ML processing; understand trade-offs between various hardware architectures and platforms; learn about micro-architectural knobs such as precision, data reuse, and parallelism to architect ML accelerators given target area-power-performance metrics; evaluate the utility of various ML dataflow techniques for efficient processing; and understand future trends and opportunities of approximate neural network accelerators \\ \hline
+		M3                 & April, 2020     & Outcome: Development of an accelerator framework of Spike-By-Spike (SbS) neural networks for inference and incremental learning in FPGA. Report results in a conference publication \cite{nevarez2020accelerator}                                                                                                                                                                                                                                                                                                                                                                     \\ \hline
+		M4                 & July, 2020      & Investigate error resilience analysis of SbS neural network algorithm                                                                                                                                                                                                                                                                           \\ \hline
+		M5                 & October, 2020   & Investigate and simulate approximate computing methodologies on SbS neural networks as a case study                                                                                                                                                                                                                             \\ \hline
+		M6                 & January, 2021   & Report methodology and results of the case study in a journal publication
+		\\ \hline
+		M7                 & April, 2021     & Outcome: Extend the neural network accelerator framework to support deep CNN, and CNN-based multiple object detector algorithms for computer vision                                                                                                                                                                                                                                                                                                                       \\ \hline
+		M8                 & July, 2021      & Investigate error resilience in CNN-based algorithms                                                                                                                                                                                                                                                                                                                                        \\ \hline
+		M9                 & October, 2021   & Outcome: Report results of methodology in a journal publication                                                                                                                                                                                                                                                                                                                                                                                          \\ \hline
+		M10                & Jun, 2022       & Written elaboration is completed                                                                                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
+		\caption{Milestone schedule.}\label{tab:mileston_schedule}
+	\end{longtable}
+%\end{table}
