@@ -1,31 +1,31 @@
-\contentsline {section}{\numberline {1}General information}{2}
-\contentsline {subsection}{\numberline {1.1}Personal information}{2}
-\contentsline {subsection}{\numberline {1.2}Supervisor}{2}
-\contentsline {subsection}{\numberline {1.3}Specialization and working direction}{2}
-\contentsline {subsection}{\numberline {1.4}Expected total duration}{2}
-\contentsline {section}{\numberline {2}Introduction}{5}
-\contentsline {subsection}{\numberline {2.1}Internet-of-Things in Industry}{5}
-\contentsline {subsection}{\numberline {2.2}Machine Learning Algorithms in Internet-of-Things}{5}
-\contentsline {subsection}{\numberline {2.3}Constraints}{5}
-\contentsline {subsection}{\numberline {2.4}Alternatives}{6}
-\contentsline {subsubsection}{\numberline {2.4.1}Network Compression and Quantization}{6}
-\contentsline {subsubsection}{\numberline {2.4.2}Approximate Computing}{7}
-\contentsline {subsection}{\numberline {2.5}Problem Statement}{7}
-\contentsline {subsection}{\numberline {2.6}Research Objective}{7}
-\contentsline {subsubsection}{\numberline {2.6.1}Research Questions}{7}
-\contentsline {subsection}{\numberline {2.7}Motivations}{8}
-\contentsline {subsubsection}{\numberline {2.7.1}Fundamental Research}{8}
-\contentsline {subsubsection}{\numberline {2.7.2}Expected Benefits}{8}
-\contentsline {section}{\numberline {3}State-of-the-art}{8}
-\contentsline {subsection}{\numberline {3.1}Neural Network Resilience Analysis}{8}
-\contentsline {subsubsection}{\numberline {3.1.1}Experimental Analysis}{8}
-\contentsline {subsubsection}{\numberline {3.1.2}Theoretical Analysis}{9}
-\contentsline {subsection}{\numberline {3.2}Approximate Computing in Adders and Multipliers}{9}
-\contentsline {subsection}{\numberline {3.3}Approximate Artificial Neural Network}{10}
-\contentsline {section}{\numberline {4}Research goals}{10}
-\contentsline {subsection}{\numberline {4.1}Outcomes}{11}
-\contentsline {section}{\numberline {5}Project plan}{11}
-\contentsline {subsection}{\numberline {5.1}Phase 1 (completed)}{11}
-\contentsline {subsection}{\numberline {5.2}Phase 2 (completed)}{11}
-\contentsline {subsection}{\numberline {5.3}Phase 3}{12}
-\contentsline {subsection}{\numberline {5.4}Phase 4}{12}
+\contentsline {section}{\numberline {1}General information}{2}%
+\contentsline {subsection}{\numberline {1.1}Personal information}{2}%
+\contentsline {subsection}{\numberline {1.2}Supervisor}{2}%
+\contentsline {subsection}{\numberline {1.3}Specialization and working direction}{2}%
+\contentsline {subsection}{\numberline {1.4}Expected total duration}{2}%
+\contentsline {section}{\numberline {2}Introduction}{5}%
+\contentsline {subsection}{\numberline {2.1}Internet-of-Things in Industry}{5}%
+\contentsline {subsection}{\numberline {2.2}Machine Learning Algorithms in Internet-of-Things}{5}%
+\contentsline {subsection}{\numberline {2.3}Constraints}{5}%
+\contentsline {subsection}{\numberline {2.4}Alternatives}{6}%
+\contentsline {subsubsection}{\numberline {2.4.1}Network Compression and Quantization}{6}%
+\contentsline {subsubsection}{\numberline {2.4.2}Approximate Computing}{7}%
+\contentsline {subsection}{\numberline {2.5}Problem Statement}{7}%
+\contentsline {subsection}{\numberline {2.6}Research Objective}{7}%
+\contentsline {subsubsection}{\numberline {2.6.1}Research Questions}{7}%
+\contentsline {subsection}{\numberline {2.7}Motivations}{8}%
+\contentsline {subsubsection}{\numberline {2.7.1}Fundamental Research}{8}%
+\contentsline {subsubsection}{\numberline {2.7.2}Expected Benefits}{8}%
+\contentsline {section}{\numberline {3}State-of-the-art}{8}%
+\contentsline {subsection}{\numberline {3.1}Neural Network Resilience Analysis}{8}%
+\contentsline {subsubsection}{\numberline {3.1.1}Experimental Analysis}{8}%
+\contentsline {subsubsection}{\numberline {3.1.2}Theoretical Analysis}{9}%
+\contentsline {subsection}{\numberline {3.2}Approximate Computing in Adders and Multipliers}{9}%
+\contentsline {subsection}{\numberline {3.3}Approximate Artificial Neural Network}{10}%
+\contentsline {section}{\numberline {4}Research goals}{10}%
+\contentsline {subsection}{\numberline {4.1}Outcomes}{11}%
+\contentsline {section}{\numberline {5}Project plan}{11}%
+\contentsline {subsection}{\numberline {5.1}Phase 1 (completed)}{11}%
+\contentsline {subsection}{\numberline {5.2}Phase 2 (completed)}{11}%
+\contentsline {subsection}{\numberline {5.3}Phase 3}{12}%
+\contentsline {subsection}{\numberline {5.4}Phase 4}{12}%
