@@ -1,0 +1,115 @@
+\documentclass{article}
+\usepackage[latin9]{inputenc}
+\usepackage{enumitem}
+
+%%%%%%%%%
+\usepackage{glossaries}
+
+% Define your glossaries and acronyms here
+\newglossaryentry{ai}{
+	name=AI,
+	description={Artificial Intelligence, the simulation of human intelligence in machines}
+}
+
+\newglossaryentry{ml}{
+	name=ML,
+	description={Machine Learning, a subset of AI that includes algorithms that enable machines to improve at tasks with experience}
+}
+
+\newglossaryentry{iot}{
+	name=IoT,
+	description={Internet of Things, the network of physical devices that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the Internet}
+}
+
+\newglossaryentry{fp}{
+	name=FP,
+	description={Floating Point, a method for representing real numbers that supports a wide range of values}
+}
+
+\newglossaryentry{sbs}{
+	name=SBS,
+	description={Spike-Based Systems, a type of neural network computation method}
+}
+
+\newglossaryentry{lif}{
+	name=LIF,
+	description={Leaky Integrate-and-Fire, a model used in spiking neural networks}
+}
+
+\newglossaryentry{mac}{
+	name=MAC,
+	description={Multiply-Accumulate, a common operation in digital signal processing and neural network computation}
+}
+
+\newglossaryentry{snn}{
+	name=SNN,
+	description={Spike Neural Network, a type of neural network computation method}
+}
+
+\newglossaryentry{cnn}{
+	name=CNN,
+	description={Convolutional Neural Network, a type of neural network computation method}
+}
+
+\newglossaryentry{hf6}{
+	name=HF6,
+	description={}
+}
+
+\newglossaryentry{tp}{
+	name=TP,
+	description={}
+}
+
+\newglossaryentry{qat}{
+	name=QAT,
+	description={}
+}
+\makeglossaries
+%%%%%%%%%
+
+\title{Yarib Israel Nevarez Esparza \\ Low-Power Neural Network Accelerators:
+	Advancements in Custom Floating-Point Techniques}
+\author{}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\title{\textbf{Abstract}}
+\thispagestyle{empty}
+
+The expansion of \gls{ai} is addressing a new era characterized by omnipresent connected devices. To ensure the sustainability of this transformation, it is imperative to adopt design strategies that harmonize precise computational results with economically viable system architectures. Consequently, refining the efficiency and quality of \gls{ai} hardware engines stand as critical considerations in this evolution. This necessitates a balanced approach that prioritizes energy-efficient computations, precise and reliable results, and integration across various platforms and devices.
+
+\gls{ml} algorithms are serving as the foundational enabler for the integration of \gls{ai} into \gls{iot} devices, particularly in the context of Industry 4.0. These advancements are shaping applications to be more intelligent and economically rewarding. This transformation improves numerous domains, from scientific research to industrial processes and everyday living. However, this technological evolution comes with its own set of challenges. \gls{ml} algorithms pose significant computational and energy demands. Consequently, a central objective of this dissertation is to explore innovative methods for enhancing the hardware efficiency of computing engines.
+
+Approximate computing techniques, such as quantization, exploit the inherent error resilience of \gls{ml} algorithms to address key design concerns in computer systems: energy efficiency, performance, and chip area. Quantization, which involves reducing the number of bits used to represent numbers, can significantly lower power consumption and data movement, thereby enhancing energy efficiency by employing compact arithmetic units that save chip area. These techniques often yield computation acceleration due to reduced data sizes, which promotes faster, more parallel, and pipelined processing, particularly in neural network computation. However, this approach introduces a trade-off between precision and model accuracy, necessitating proper hardware design methodologies. While state-of-the-art methods are advancing, significant research opportunities remain, especially for accelerators with custom \gls{fp} computation.
+
+In this dissertation, a hardware design methodology is presented for low-power inference of \gls{sbs} neural networks for embedded applications, within the field of \glspl{snn}. Compared to conventional \glspl{snn} employing the \gls{lif} mechanism, \gls{sbs} neural networks are highlighted for their reduced model complexity and exceptional noise robustness. However, despite their advantages, \gls{sbs} networks inherently possess a memory footprint and computational cost that makes them challenging for deployment in constrained devices. To solve this issue, this research leverage the intrinsic error resilience of \gls{sbs} models, aiming to enhance performance and reduce hardware complexity, while avoiding quantization. Specifically, this research introduces a novel \gls{mac} module designed to optimize the balance between computational accuracy and resource efficiency of \gls{fp} operations. This \gls{mac} module features configurable quality through a hybrid approach. It combines standard \gls{fp} number representations with a custom 8-bit \gls{fp} format, as well as a 4-bit logarithmic number representation. This design excludes the use of a sign bit, further contributing to the compact and efficient representation of numbers. This design enables the \gls{mac} module to be tailored to the specific resource constraints and performance requirements of a given application, making \gls{sbs} neural networks possible for deployment in resource-constrained environments.
+
+In the field of \glspl{cnn}, this dissertation presents a hardware design methodology for low-power inference, specifically targeting sensor analytics applications. Central to this work is the proposal of the \gls{hf6} quantization scheme and its dedicated hardware accelerator, designed to function as a Conv2D \gls{tp}. This quantization strategy employs a hybrid number representation, combining standard \gls{fp} and a 6-bit \gls{fp} format. This strategy allows for a highly optimized \gls{fp} \gls{mac}, reducing mantissa multiplication into a multiplexer-adder operation. This research introduces a \gls{qat} method that, in certain cases, offers beneficial regularization effects. The efficacy of this exploration is demonstrated with a regression model, which improves its precision despite the applied quantization. For \gls{ml} portability, the custom \gls{fp} representation is encapsulated within a standard format -- a design characteristic that makes the proposed hardware to automatically process it. To validate interoperability of this approach, the hardware architecture is integrated with TensorFlow Lite, demonstrating compatibility with industry-standard \gls{ml} frameworks and affirming the potential for practical deployment in various sensing applications while maintaining compliance with established \gls{ml} infrastructure.
+
+
+This dissertation addresses a essential challenge in the current technological landscape: the harmonization of computational accuracy with energy-efficiency and compatibility of hardware solutions. This dissertation stands as a significant contribution towards the development of a sustainable next-generation of neural network processors, essential to empower the increasingly connected and intelligent world of tomorrow.
+
+\newpage
+\title{\textbf{Zusammenfassung}}
+
+\thispagestyle{empty}
+
+Die Expansion von \gls{ai} l\"autet eine neue \"Ara ein, die durch allgegenw\"artige, vernetzte Ger\"ate gekennzeichnet ist. Um die Nachhaltigkeit dieser Transformation zu gew\"ahrleisten, ist es unerl\"asslich, Entwurfsstrategien zu adoptieren, die pr\"azise Rechenergebnisse mit wirtschaftlich tragf\"ahigen Systemarchitekturen in Einklang bringen. Folglich steht die Verfeinerung der Effizienz und Qualit\"at von \gls{ai}-Hardwaremotoren als kritische \"Uberlegung in dieser Entwicklung. Dies erfordert einen ausgewogenen Ansatz, der energieeffiziente Berechnungen, pr\"azise und zuverl\"assige Ergebnisse sowie die Integration \"uber verschiedene Plattformen und Ger\"ate priorisiert.
+
+\gls{ml}-Algorithmen dienen als grundlegender Erm\"oglicher f\"ur die Integration von \gls{ai} in \gls{iot}-Ger\"ate, insbesondere im Kontext von Industrie 4.0. Diese Fortschritte pr\"agen Anwendungen, um intelligenter und wirtschaftlich lohnender zu werden. Diese Transformation verbessert zahlreiche Bereiche, von der wissenschaftlichen Forschung \"uber industrielle Prozesse bis hin zum allt\"aglichen Leben. Diese technologische Entwicklung bringt jedoch ihre eigenen Herausforderungen mit sich. \gls{ml}-Algorithmen stellen erhebliche rechnerische und energetische Anforderungen. Folglich ist ein zentrales Ziel dieser Dissertation, innovative Methoden zur Steigerung der Hardwareeffizienz von Rechenmotoren zu erforschen.
+
+Approximative Rechentechniken, wie Quantisierung, nutzen die inh\"arente Fehlerresilienz von \gls{ml}-Algorithmen, um Schl\"usseldesignanliegen in Computersystemen anzugehen: Energieeffizienz, Leistung und Chipfl\"ache. Quantisierung, die die Reduzierung der zur Repr\"asentation von Zahlen verwendeten Bitanzahl beinhaltet, kann den Energieverbrauch und die Datenbewegung erheblich senken und somit die Energieeffizienz durch den Einsatz kompakter arithmetischer Einheiten verbessern, die Chipfl\"ache sparen. Diese Techniken f\"uhren oft zu einer Beschleunigung der Berechnung aufgrund reduzierter Datengr\"o\ss{}en, was schnellere, parallele und gepipelte Verarbeitung f\"ordert, insbesondere in der Berechnung neuronaler Netzwerke. Dieser Ansatz f\"uhrt jedoch zu einem Kompromiss zwischen Pr\"azision und Modellgenauigkeit, der eine angemessene Hardware-Designmethodik erfordert. W\"ahrend modernste Methoden voranschreiten, bleiben bedeutende Forschungsm\"oglichkeiten bestehen, insbesondere f\"ur Beschleuniger mit benutzerdefinierter \gls{fp}-Berechnung.
+
+In dieser Dissertation wird eine Hardware-Designmethodik f\"ur stromsparende Inferenz von \gls{sbs}-neuronalen Netzwerken f\"ur eingebettete Anwendungen im Bereich der \glspl{snn} vorgestellt. Im Vergleich zu konventionellen \glspl{snn}, die den \gls{lif}-Mechanismus verwenden, werden \gls{sbs}-neuronale Netzwerke f\"ur ihre reduzierte Modellkomplexit\"at und au\ss{}ergew\"ohnliche Ger\"auschrobustheit hervorgehoben. Trotz ihrer Vorteile besitzen \gls{sbs}-Netzwerke jedoch einen inh\"arenten Speicherbedarf und Rechenkosten, die ihre Bereitstellung in ressourcenbeschr\"ankten Ger\"aten herausfordernd machen. Um dieses Problem zu l\"osen, nutzt diese Forschung die inh\"arente Fehlerresilienz von \gls{sbs}-Modellen, um die Leistung zu steigern und die Hardwarekomplexit\"at zu reduzieren, w\"ahrend Quantisierung vermieden wird. Insbesondere f\"uhrt diese Forschung ein neuartiges \gls{mac}-Modul ein, das darauf ausgelegt ist, das Gleichgewicht zwischen Rechengenauigkeit und Ressourceneffizienz von \gls{fp}-Operationen zu optimieren. Dieses \gls{mac}-Modul verf\"ugt \"uber eine konfigurierbare Qualit\"at durch einen hybriden Ansatz. Es kombiniert standardm\"a\ss{}ige \gls{fp}-Zahldarstellungen mit einem benutzerdefinierten 8-Bit-\gls{fp}-Format sowie einer 4-Bit-logarithmischen Zahldarstellung. Dieses Design schlie\ss{}t die Verwendung eines Vorzeichenbits aus und tr\"agt weiter zur kompakten und effizienten Darstellung von Zahlen bei. Dieses Design erm\"oglicht es, das \gls{mac}-Modul an die spezifischen Ressourcenbeschr\"ankungen und Leistungsanforderungen einer bestimmten Anwendung anzupassen, und macht \gls{sbs}-neuronale Netzwerke f\"ur den Einsatz in ressourcenbeschr\"ankten Umgebungen m\"oglich.
+
+Im Bereich der \glspl{cnn} pr\"asentiert diese Dissertation eine Hardware-Designmethodik f\"ur stromsparende Inferenz, die speziell auf Sensoranalytikanwendungen abzielt. Zentral f\"ur diese Arbeit ist der Vorschlag des \gls{hf6}-Quantisierungsschemas und seines dedizierten Hardware-Beschleunigers, der als Conv2D \gls{tp} fungiert. Diese Quantisierungsstrategie verwendet eine hybride Zahldarstellung, die standardm\"a\ss{}ige \gls{fp} und ein 6-Bit-\gls{fp}-Format kombiniert. Diese Strategie erm\"oglicht ein hochgradig optimiertes \gls{fp} \gls{mac}, indem die Mantissenmultiplikation in eine Multiplexer-Addierer-Operation reduziert wird. Diese Forschung f\"uhrt eine \gls{qat}-Methode ein, die in bestimmten F\"allen vorteilhafte Regularisierungseffekte bietet. Die Wirksamkeit dieser Untersuchung wird mit einem Regressionsmodell demonstriert, das seine Pr\"azision trotz der angewandten Quantisierung verbessert. F\"ur die Portabilit\"at von \gls{ml} wird die benutzerdefinierte \gls{fp}-Darstellung in einem Standardformat eingekapselt - eine Designeigenschaft, die es der vorgeschlagenen Hardware erm\"oglicht, sie automatisch zu verarbeiten. Um die Interoperabilit\"at dieses Ansatzes zu validieren, wird die Hardware-Architektur in TensorFlow Lite integriert, was die Kompatibilit\"at mit branchen\"ublichen \gls{ml}-Frameworks demonstriert und das Potenzial f\"ur praktische Eins\"atze in verschiedenen Sensoranwendungen unter Beibehaltung der \"Ubereinstimmung mit etablierter \gls{ml}-Infrastruktur best\"atigt.
+
+Diese Dissertation behandelt eine wesentliche Herausforderung in der aktuellen technologischen Landschaft: die Harmonisierung von Rechengenauigkeit mit Energieeffizienz und der Kompatibilit\"at von Hardwarel\"osungen. Diese Dissertation stellt einen bedeutenden Beitrag zur Entwicklung einer nachhaltigen n\"achsten Generation von neuronalen Netzwerkprozessoren dar, die f\"ur die zunehmend vernetzte und intelligente Welt von morgen unerl\"asslich sind.
+
+
+\end{document}
+
