@@ -11,10 +11,10 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{Low-Power Neural Network Accelerators: \\Advancements in Custom Floating-Point Techniques\\{(One Page Short Version in German)}}
+\rhead{Energiespar-Beschleunigungschips für neuronale Netzwerke: \\Fortschritte bei benutzerdefinierten Gleitkommatechniken.}
 \cfoot{\thepage}
 
-\title{Low-Power Neural Network Accelerators: \\Advancements in Custom Floating-Point Techniques\\{(One Page Short Version)}}
+\title{Low-Power Neural Network Accelerators: \\Advancements in Custom Floating-Point Techniques}
 \author{}
 \date{}
 
@@ -36,13 +36,14 @@
 	
 	\newpage
 	\section*{Kurzfassung}
-	Diese Dissertation präsentiert eine Untersuchung von Entwurfstechniken, die benutzerdefinierte Gleitkomma-Berechnungen für energieeffiziente neuronale Netzwerkbeschleuniger in ressourcenbeschränkten eingebetteten Systemen beinhalten. Sie konzentriert sich auf die Nachhaltigkeit der KI-Transformation durch die Entwicklung effizienter Hardware-Engines und betont das Gleichgewicht zwischen energieeffizienten Berechnungen, Präzision, Zuverlässigkeit und plattformübergreifender Integration.
+
+	Diese Dissertation ist eine Untersuchung zu Designtechniken, die eine benutzerdefinierte Gleitkommaberechnung (FP) für stromsparende neuronale Netzwerkbeschleuniger in ressourcenbeschränkten eingebetteten Systemen beinhalten. Sie konzentriert sich auf die Nachhaltigkeit der zukünftigen Omnipräsenz künstlicher Intelligenz (KI) durch die Entwicklung effizienter Hardware-Engines und betont das Gleichgewicht zwischen energieeffizienten Berechnungen, Inferenzqualität, Anwendungsvielfalt und plattformübergreifender Kompatibilität.
 	
-	Die Studie hebt die Rolle des maschinellen Lernens (ML) beim Fortschritt des Internets der Dinge (IoT), insbesondere in der Industrie 4.0, hervor und erkennt die rechnerischen und energetischen Herausforderungen, die durch ML-Algorithmen entstehen. Das Ziel der Dissertation ist es, die Effizienz der Hardware zu steigern, vor allem durch Näherungsrechentechniken wie Quantisierung. Dieser Ansatz verbessert zwar die Energieeffizienz und beschleunigt die Berechnungen, erfordert jedoch eine sorgfältige Gestaltung, um Präzision und Modellgenauigkeit auszugleichen.
+	Die Studie betont die Rolle von Machine Learning (ML) bei der Weiterentwicklung des stromsparenden Internets der Dinge (IoT), insbesondere in der Industrie 4.0, unter Berücksichtigung der rechnerischen und energetischen Herausforderungen, die von ML-Algorithmen ausgehen. Die Dissertation zielt darauf ab, die Hardwareeffizienz zu verbessern, vor allem durch approximative Rechentechniken wie Quantisierung. Dieser Ansatz verbessert zwar die Energieeffizienz und beschleunigt die Berechnungen, erfordert jedoch ein sorgfältiges Design, um die numerische Präzision mit der  Modellgenauigkeit in Einklang zu bringen.
 	
-	Insbesondere präsentiert die Forschung eine Hardware-Entwurfsmethodik für energieeffiziente Inferenz von Spike-by-Spike (SbS) neuronalen Netzwerken. Trotz der reduzierten Komplexität und Geräuschrobustheit von SbS-Netzwerken ist deren Einsatz in ressourcenbeschränkten Geräten aufgrund hoher Speicher- und Rechenanforderungen herausfordernd. Die Dissertation schlägt ein neuartiges Multiply-Accumulate (MAC) Modul vor, das das Gleichgewicht zwischen rechnerischer Genauigkeit und Ressourceneffizienz in Gleitkommaoperationen (FP) optimiert. Dieses Modul verwendet einen hybriden Ansatz, der standardmäßige FP mit benutzerdefinierten 8-Bit-FP und 4-Bit-logarithmischen Zahlendarstellungen kombiniert, was eine Anpassung basierend auf den spezifischen Anforderungen der Anwendung ermöglicht und den Einsatz in eingebetteten Systemen erleichtert.
+	Die Forschung stellt eine Hardware-Design-Methodik für Low-Power-Inferenz von neuronalen Spike-by-Spike (SbS) Netzwerken vor. Trotz der reduzierten Komplexität und Rauschrobustheit von SbS-Netzwerken bleibt ihr Einsatz in eingeschränkten eingebetteten Geräten aufgrund der hohen Speicher- und Rechenkosten eine Herausforderung. Die Dissertation schlägt ein neuartiges Multiply-Accumulate (MAC) -Hardwaremodul vor, das das Gleichgewicht zwischen Rechengenauigkeit und Ressourceneffizienz in FP-Operationen optimiert. Dieses Modul verwendet einen hybriden Ansatz, der Standard-FP mit benutzerdefinierten 8-Bit-FP- und 4-Bit-logarithmischen numerischen Darstellungen kombiniert, wodurch eine Anpassung basierend auf anwendungsspezifischen Einschränkungen ermöglicht wird und erstmals eine Beschleunigung in eingebetteten Systemen implementiert wird.
 	
-	Darüber hinaus führt die Studie ein Hardware-Design für energieeffiziente Inferenz in Convolutional Neural Networks (CNNs) ein, das auf Sensoranalytikanwendungen abzielt. Dies schlägt ein Hybrid-Float6 (HF6) Quantisierungsschema und einen speziellen Hardware-Beschleuniger vor. Die vorgeschlagene quantisierungsbewusste Schulungsmethode (QAT) demonstriert verbesserte Präzision trotz Quantisierung. Das Design gewährleistet die Kompatibilität mit standardisierten ML-Frameworks wie TensorFlow Lite und hebt das Potenzial für den praktischen Einsatz in realen eingebetteten Anwendungen hervor.
+	Darüber hinaus stellt die Studie ein Hardware-Design für Low-Power-Inferenz in Convolutional Neural Networks (CNNs) vor, das auf Sensor-Analyse-Anwendungen abzielt. Dies schlägt ein Quantisierungsschema für Hybrid-Float6 (HF6) und einen dedizierten Hardwarebeschleuniger vor. Die vorgeschlagene Quantization-Aware Training (QAT) -Methode zeigt trotz der numerischen Quantisierung eine verbesserte Qualität. Das Design stellt die Kompatibilität zu Standard-ML-Frameworks wie TensorFlow Lite sicher und unterstreicht sein Potenzial für den praktischen Einsatz in realen Anwendungen.
 	
-	Zusammenfassend adressiert diese Dissertation die kritische Herausforderung, rechnerische Genauigkeit mit Energieeffizienz im KI-Hardware-Design in Einklang zu bringen. Sie leistet einen signifikanten Beitrag zur Entwicklung nachhaltiger neuronaler Netzwerkprozessoren, die für die zunehmend vernetzte und intelligente Welt von morgen entscheidend sind.
+	Zusammenfassend befasst sich diese Dissertation mit der kritischen Herausforderung, Rechengenauigkeit mit Energieeffizienz in KI-Hardware-Engines mit Inferenzqualität, Anwendungsvielfalt und plattformübergreifender Kompatibilität als Designphilosophie zu harmonisieren. Sie trägt wesentlich zur Entwicklung nachhaltiger neuronaler Netzwerkprozessoren bei, die für die zunehmend vernetzte und intelligente Welt von entscheidender Bedeutung sind.
 \end{document}
